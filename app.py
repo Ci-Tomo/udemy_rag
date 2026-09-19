@@ -78,7 +78,7 @@ def index_url(client, collection, url, chunk_size, overlap):
 
 
 def ask_question(client, question, context):
-    prompt = f"""以下の質問に以下の情報をベースにして答えてください。
+    prompt = f"""以下の質問に下記の情報をベースにして答えてください。
     [ユーザーの質問]
     {question}
 
